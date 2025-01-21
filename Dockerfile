@@ -1,5 +1,6 @@
 FROM alpine:3.19.1
 
-ARG VERSION
+ARG WIREGUARD_VERSION
 
-RUN apk add wireguard-tools==${VERSION}
+RUN apk add --no-cache --update \
+    wireguard-tools=${WIREGUARD_VERSION}
