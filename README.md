@@ -1,6 +1,6 @@
 # WireGuard
 
-Simple WireGuard docker image.
+Simple docker image for WireGuard without any bloat, built on the official alpine image.
 
 ## Usage
 
